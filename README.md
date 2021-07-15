@@ -13,4 +13,10 @@ Brief reference of various git commands. Also practice with git branching
 
 -   `git branch` - list local branches
 -   `git branch newBranch` - creates a new branch
--   `git chechout newBranch` - switches to the branch specified
+-   `git checkout newBranch` - switches to the branch specified
+
+
+### Remote Repos
+* `git remote add alias url` - add `alias` as name for remote repo `url` in project configuration
+* `git push alias aBranch` - push local commits to remote repo `alias`'s branch `aBranch`
+* `git pull alias aBranch` - pull remote `aBranch` from `alias` into current local branch
